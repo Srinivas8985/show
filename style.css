@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.main, .main1, .lak {
+    padding: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+.main h1 {
+    color: red;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main h2 {
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.card-container h3, .lak h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.btn1 {
+    background-color: #ff0000; /* Red */
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.btn1:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+#magic-text {
+    color: red;
+    padding: 3px;
+    margin: 10px;
+    margin-bottom: auto;
+    font-size: 40px; /* Corrected property */
+}
+body {
+    background-image: url(magician.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

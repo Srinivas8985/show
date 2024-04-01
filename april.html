@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srir Magic show</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Siri Magic show</h1>
+        <h1>Welcome to the siri Magic Show!</h1>
+    </div>
+    <center>
+    <div class="card-container">
+        <h3>Click the button below to start the magic I can Guess Your Mind:</h3>
+        <button class="btn" onclick="startMagic()">Click me</button>
+    </div>
+    <div class="magic-result">
+        <h3 id="magic-text"></h3>
+    </div>
+    <button class="btn1" onclick="clearMagic()">Clear Magic</button>
+    </center>
+    
+    <script>
+        function startMagic(){
+            let magicTexts = [
+                "EE april fool day ki magic cheyali anukuntunna, Nuvvu fool ayyav",
+                "April Fool ayyav Sarle magic ledu em ledu chaduvuko poi!",
+                "Exam daggara pettukoni Magic kavala poi chaduvuko lasty april fool!",
+                "Jai balayya April fool Ayyav!",
+                "3+2=5 Nuvvu ayyav April fool!",
+                "Bhojanam Chesara magic ledu Em ledu poi paduko April fool Ayyav!",
+            ];
+
+            let randomIndex = Math.floor(Math.random() * magicTexts.length);
+            document.getElementById('magic-text').innerHTML = magicTexts[randomIndex];
+        }
+
+        function clearMagic(){
+            document.getElementById('magic-text').innerHTML = "";
+        }
+    </script>
+</body>
+</html>
